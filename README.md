@@ -38,19 +38,34 @@ Tela de cadastro // usuário cadastrado com sucesso
 
 ---
 
-### 3. Senha incorreta e recuperação de token
+### 3. Senha incorreta e bloqueio temporário de conta
+
 
 <div align="center">
   <table>
     <tr>
       <td><img alt="5" src="https://github.com/user-attachments/assets/ad6ffca1-fd57-4682-b5af-39873476f2a7" width="400"></td>
-      <td><img alt="6" src="https://github.com/user-attachments/assets/9e688c6c-12b3-4c4f-aa62-8826f23a8c69" width="400"></td>
+      <td><img alt="5-1" src="https://github.com/user-attachments/assets/df981b9a-4437-4b07-83db-ceb2ff1e3979" width="350"></td>
     </tr>
   </table>
 </div>
 
 ---
-### 4. Mensagem de boas vindas ao usuário // autenticação da conta no sistema.
+
+### 4. Recuperação de senha e envio de token
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img alt="5-2" src="https://github.com/user-attachments/assets/c33b0746-b963-4f12-af31-0bece382cd4c" width="400"></td>
+      <td><img alt="6" src="https://github.com/user-attachments/assets/fda149e3-065a-4c54-9ab6-896bdcb5a9b7" width="350"></td>
+    </tr>
+  </table>
+</div>
+
+
+
+### 5. Mensagem de boas vindas ao usuário // autenticação da conta no sistema.
 
 <div align="center">
   <table>
@@ -153,7 +168,6 @@ Acesse em: [http://localhost:5000](http://localhost:5000)
 |---|---|
 | Python 3 | Linguagem principal |
 | Flask | Web framework |
-| Colorama | Cores no terminal |
 | SHA-256 (hashlib) | Hash de senhas e tokens |
 | JSON | Armazenamento de usuários |
 | Jinja2 | Templates HTML |
@@ -267,7 +281,6 @@ Access at: [http://localhost:5000](http://localhost:5000)
 |---|---|
 | Python 3 | Main language |
 | Flask | Web framework |
-| Colorama | Terminal colors |
 | SHA-256 (hashlib) | Password and token hashing |
 | JSON | User storage |
 | Jinja2 | HTML templates |

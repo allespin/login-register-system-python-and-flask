@@ -5,6 +5,60 @@ Permite cadastro de usuários, login seguro e recuperação de senha por token d
 As senhas são armazenadas com hash SHA-256 e possui proteção contra força bruta com bloqueio após 3 tentativas.
 A interface web conta com tema terminal, comunicação via API REST e sessão autenticada.
 
+
+## 📸 Preview
+
+### 1. Tela de login
+Tela de login // usuário não encontrado.
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img alt="1" src="https://github.com/user-attachments/assets/179e0f0f-2b46-4b43-b6c4-08b0009d633c" width="400"></td>
+      <td><img alt="2" src="https://github.com/user-attachments/assets/7c1be4ac-a37f-4a52-af1a-e8fdd1d85ac2" width="400"></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 2. Tela de cadastro
+Tela de cadastro // usuário cadastrado com sucesso
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img alt="3" src="https://github.com/user-attachments/assets/a7be2ec6-a152-4f9b-8d46-0eae6377701f" width="400"></td>
+      <td><img alt="4" src="https://github.com/user-attachments/assets/fcf8a428-5801-43cf-9fdb-eba4f238460e" width="400"></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 3. Senha incorreta e recuperação de token
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img alt="5" src="https://github.com/user-attachments/assets/ad6ffca1-fd57-4682-b5af-39873476f2a7" width="400"></td>
+      <td><img alt="6" src="https://github.com/user-attachments/assets/9e688c6c-12b3-4c4f-aa62-8826f23a8c69" width="400"></td>
+    </tr>
+  </table>
+</div>
+
+---
+### 4. Mensagem de boas vindas ao usuário // autenticação da conta no sistema.
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img alt="7" src="https://github.com/user-attachments/assets/d40c1812-6e7f-416e-a035-09fd68170f6b" width="400"></td>
+      <td><img alt="8" src="https://github.com/user-attachments/assets/6efda7e4-6081-42d4-af2e-755c4709c790" width="400"></td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 ## ✨ Funcionalidades
@@ -99,7 +153,7 @@ Acesse em: [http://localhost:5000](http://localhost:5000)
 2. Um token de 8 caracteres é gerado e "enviado" ao e-mail cadastrado
 3. Insira o token para validar e redefinir a senha
 
-> ⚠️ Em produção, substitua o token simulado pelo envio real via SMTP ou serviço de e-mail (SendGrid, etc.)
+> ⚠️ Em produção: o token simula pelo envio do código por serviço de e-mail.
 
 ---
 
@@ -122,9 +176,6 @@ Acesse em: [http://localhost:5000](http://localhost:5000)
 - O arquivo `usuarios.json` é criado automaticamente na primeira execução
 - A `secret_key` do Flask deve ser trocada por uma chave segura em produção
 - O sistema não usa banco de dados externo
-
----
-
 
 ---
 
@@ -229,7 +280,7 @@ Access at: [http://localhost:5000](http://localhost:5000)
 2. An 8-character token is generated and "sent" to the registered email
 3. Enter the token to validate and reset your password
 
-> ⚠️ In production, replace the simulated token with real email delivery via SMTP or an email service (SendGrid, etc.)
+> ⚠️ In production: the token simulates delivery of the code via an email service.
 
 ---
 
@@ -251,7 +302,4 @@ Access at: [http://localhost:5000](http://localhost:5000)
 
 - The `usuarios.json` file is created automatically on first run
 - The Flask `secret_key` should be replaced with a secure key in production
-- The system uses no external database — ideal for learning and small projects
-
----
-
+- The system uses no external database

@@ -3,7 +3,7 @@
 # 🔐 Sistema de login e registro de usuários 
 
 Sistema de autenticação completo desenvolvido em Python, disponível em versão web app via Flask.
-Permite cadastro de usuários, login seguro e recuperação de senha por token de 8 caracteres.
+Permite cadastro de usuários, login e recuperação de senha por token de 8 caracteres.
 As senhas são armazenadas com hash SHA-256 e possui proteção contra força bruta com bloqueio após 3 tentativas.
 A interface web conta com tema terminal, comunicação via API REST e sessão autenticada.
 

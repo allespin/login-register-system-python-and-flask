@@ -148,7 +148,7 @@ def api_recuperar_solicitar():
 
     email = usuarios[nome]["email"]
     # Em produção: enviar por e-mail. Aqui retorna a  resposta para simulação.
-    return jsonify({"ok": True, "msg": f"Token enviado para {email}.", "token_simulado": token})
+    return jsonify({"ok": True, "msg": f"Token enviado para {email}", "token_simulado": token})
 
 
 @app.route("/api/recuperar/confirmar", methods=["POST"])
